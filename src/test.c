@@ -1,3 +1,9 @@
+/*
+ * Written by Ana Silva
+ * Copyright 2024
+ */
+
+
 #include <stdio.h>
 
 
