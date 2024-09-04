@@ -10,7 +10,7 @@ Library or a object file that is missing
 Divide by zero, file not found, out of memory
 ## Logic errors
 Errors or bugs in your code that cause your program to run incorrectly
-## Preprocessor:
+## Preprocessor
 - Part of the C compilation process
 - Identified by the presence of #
 - Used to: 
