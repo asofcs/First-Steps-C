@@ -18,4 +18,4 @@ Errors or bugs in your code that cause your program to run incorrectly
   - build library files with the #include statement
   - make more powerful programs with the conditional #ifdef, #endif, #else, and #ifndef statements
 - Analyzes these statements before analysing the C program itself.
-- Could be anywhere in code.
+- Are usually at the beginning of the program source file, but they could be anywhere.
