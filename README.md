@@ -1,4 +1,4 @@
-# See [Code: Introduction](https://github.com/asofcs/First_Steps_C/blob/Introduction/src/test.c)
+# See code: [test.c](https://github.com/asofcs/First_Steps_C/blob/Introduction/src/test.c)
 # Brief Notes
 ## Compilers errors
 Sintax errors, semantic errors
