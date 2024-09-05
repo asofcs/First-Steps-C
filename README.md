@@ -1,2 +1,3 @@
-# Source
-[C Programming For Beginners - Master the C Language](https://www.udemy.com/course/c-programming-for-beginners-/)
+# Sources
+- [C Programming For Beginners - Master the C Language](https://www.udemy.com/course/c-programming-for-beginners-/)
+- [C Primer Plus](https://www.oreilly.com/library/view/c-primer-plus/9780133432398/)
