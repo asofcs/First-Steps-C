@@ -1,4 +1,4 @@
-# See code: [src1/test.c](https://github.com/asofcs/First_Steps_C/blob/variables-and-data-types/src1/test.c)
+# See code: [src1/test.c](https://github.com/asofcs/First_Steps_C/blob/variables-and-data-types/src1/test.c) and [src2/test.c](https://github.com/asofcs/First_Steps_C/blob/variables-and-data-types/src2/test.c)
 # Brief Notes
 ## Constants
 Types of data that do not change and retain their values throughout the life of the program.
