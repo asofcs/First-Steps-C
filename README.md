@@ -6,4 +6,11 @@ Types of data that may change or be assigned values as the program runs.
 ## Naming rules
 - Begin with a letter or underscore.
 - Be followed by any combination of letters, underscores, or digits.
+## Boolean Variables
+### C99
+_Bool myBool
+### Alternative
+#include <stdbool.h>
+
+bool myBool
 
