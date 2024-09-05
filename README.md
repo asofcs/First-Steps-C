@@ -13,4 +13,26 @@ _Bool myBool
 #include <stdbool.h>
 
 bool myBool
+## Enumerations (Enums)
+- A data type that allows a programmer to define a variable and specify the valid values that could be stored into that variable.
+- [Example](https://www.geeksforgeeks.org/enumeration-enum-c/)
+```c
+// An example program to demonstrate working
+// of enum in C
 
+#include<stdio.h>
+ 
+enum week{Mon, Tue, Wed, Thur, Fri, Sat, Sun};
+
+int main()
+{
+    enum week day;   
+    day = Wed;
+    printf("%d",day);
+    
+    return 0;
+} 
+
+Output: 
+ 2
+```
