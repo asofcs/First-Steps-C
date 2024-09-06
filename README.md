@@ -1,23 +1,24 @@
-# Sources
+# First_Steps_C
+## Sources
 - [C Programming For Beginners - Master the C Language](https://www.udemy.com/course/c-programming-for-beginners-/)
 - [C Primer Plus](https://www.oreilly.com/library/view/c-primer-plus/9780133432398/)
-# See code: [src1/test.c](https://github.com/asofcs/First_Steps_C/blob/variables-and-data-types/src1/test.c) and [src2/test.c](https://github.com/asofcs/First_Steps_C/blob/variables-and-data-types/src2/test.c)
-# Brief Notes
-## Constants
+## See code: [src1/test.c](https://github.com/asofcs/First_Steps_C/blob/variables-and-data-types/src1/test.c) and [src2/test.c](https://github.com/asofcs/First_Steps_C/blob/variables-and-data-types/src2/test.c)
+## Brief Notes
+### Constants
 Types of data that do not change and retain their values throughout the life of the program.
-## Variables
+### Variables
 Types of data that may change or be assigned values as the program runs.
-## Naming rules
+### Naming rules
 - Begin with a letter or underscore.
 - Be followed by any combination of letters, underscores, or digits.
-## Boolean Variables
-### C99
+### Boolean Variables
+#### C99
 _Bool myBool
-### Alternative
+#### Alternative
 #include <stdbool.h>
 
 bool myBool
-## Enumerations (Enums)
+### Enumerations (Enums)
 - A data type that allows a programmer to define a variable and specify the valid values that could be stored into that variable.
 - [Example](https://www.geeksforgeeks.org/enumeration-enum-c/)
 ```c
