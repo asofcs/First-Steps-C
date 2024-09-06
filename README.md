@@ -10,6 +10,8 @@ Also called Boolean Operator, is an operator that returns a boolean result that'
 ### Arithmetic Operator
 A matematical function that takes two operands and performs a calculation on them. E.g: + (addition), /(division), % (remainder).
 ### Bitwise Operator
-E.g.: >> (right shift), << (left shift), ^ (xor)
+Conversion to decimal: Least significant on the right.
+E.g.: >> (right shift -> /2) , << (left shift-> *2), ^ (xor)
+
 ## Relational 
 Used for comparison between two values to understand the type of relationship a pair of numbers shares. E.g.: != (not equal to), >= (greater than equal to)
