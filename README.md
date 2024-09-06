@@ -4,6 +4,7 @@
 - [C Primer Plus](https://www.oreilly.com/library/view/c-primer-plus/9780133432398/)
 - [Bitwise Operators in C](https://www.geeksforgeeks.org/bitwise-operators-in-c-cpp/)
 - [Relational Operators in C](https://www.geeksforgeeks.org/relational-operators-in-c/)
+## See code: [src1/test.c](https://github.com/asofcs/First_Steps_C/blob/b3-operators/src1/test.c) and [src2/test.c](https://github.com/asofcs/First_Steps_C/blob/b3-operators/src2/test.c)
 ## Brief Notes
 ### Logical Operator
 Also called Boolean Operator, is an operator that returns a boolean result that's bases on the result of one or two other expressions. E.g.: || (or); && (and).
