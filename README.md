@@ -1,19 +1,20 @@
-# Sources
+# First_Steps_C
+## Sources
 - [C Programming For Beginners - Master the C Language](https://www.udemy.com/course/c-programming-for-beginners-/)
 - [C Primer Plus](https://www.oreilly.com/library/view/c-primer-plus/9780133432398/)
-# See code: [test.c](https://github.com/asofcs/First_Steps_C/blob/Introduction/src/test.c)
-# Brief Notes
-## Compilers errors
+## See code: [test.c](https://github.com/asofcs/First_Steps_C/blob/Introduction/src/test.c)
+## Brief Notes
+### Compilers errors
 Sintax errors, semantic errors
-## Compiler warning
+### Compiler warning
 Uninitialized variables
-## Linker errors
+### Linker errors
 Library or a object file that is missing
-## Runtime errors
+### Runtime errors
 Divide by zero, file not found, out of memory
-## Logic errors
+### Logic errors
 Errors or bugs in your code that cause your program to run incorrectly
-## Preprocessors
+### Preprocessors
 - Part of the C compilation process
 - Identified by the presence of #
 - Used to: 
