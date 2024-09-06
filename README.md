@@ -2,7 +2,7 @@
 ## Sources
 - [C Programming For Beginners - Master the C Language](https://www.udemy.com/course/c-programming-for-beginners-/)
 - [C Primer Plus](https://www.oreilly.com/library/view/c-primer-plus/9780133432398/)
-## See code: [src1/test.c](https://github.com/asofcs/First_Steps_C/blob/variables-and-data-types/src1/test.c) and [src2/test.c](https://github.com/asofcs/First_Steps_C/blob/variables-and-data-types/src2/test.c)
+## See code: [src1/test.c](https://github.com/asofcs/First_Steps_C/blob/b2-variables-and-data-types/src1/test.c) and [src2/test.c](https://github.com/asofcs/First_Steps_C/blob/b2-variables-and-data-types/src2/test.c)
 ## Brief Notes
 ### Constants
 Types of data that do not change and retain their values throughout the life of the program.
