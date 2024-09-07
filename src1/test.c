@@ -28,7 +28,7 @@ int main(void)
      */
     if (nHours <= HOURS_WEEK)
     {
-        grossPay = nHours > OVERTIME ? 40*PAYRATE + (nHours-40)*1.5*PAYRATE  :  nHours*PAYRATE;
+        grossPay = nHours > OVERTIME ? OVERTIME*PAYRATE + (nHours-OVERTIME)*1.5*PAYRATE  :  nHours*PAYRATE;
     }
     else
     {
