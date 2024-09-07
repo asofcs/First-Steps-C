@@ -18,7 +18,7 @@ Require that the programmmer specify one or more conditions to be evaluated or t
 - If a condition is true then a statement or statements are executed.
 - If a condition is false the other statements are executed.
   
-Alternative to if-else: condition ? expression1 : expression2
+Alternative to if-else: value = condition ? expression1 : expression2
 
 ### Looping
 - If is required to execute a block of code several number of times.
