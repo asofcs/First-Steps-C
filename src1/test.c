@@ -5,10 +5,10 @@
 
 #include <stdio.h>
 
-#define PAYRATE 12.00
-#define TAXRATE_300 .15
-#define TAXRATE_150 .20
-#define TAXRATE_REST .25
+#define PAYRATE 12.00 
+#define TAXRATE_300 .15 // 15% of tax rate of the first 300 
+#define TAXRATE_150 .20 // 20% of tax rate of the next 150 
+#define TAXRATE_REST .25 // 25% of tax rate of the rest
 #define OVERTIME 40
 #define HOURS_WEEK 168
 
@@ -37,9 +37,7 @@ int main(void)
     }
     
     /*
-     * 15% of tax rate of the first 300 
-     * 20% of tax rate of the next 150 
-     * 25% of tax rate of the rest
+     * Taxes payment
      */
     
     if (grossPay > 450)
