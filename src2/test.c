@@ -62,7 +62,7 @@ int main(void)
         /*Wrong guess - Last guess*/
         else
         {
-            printf(" \n\tGame Over!\n ");
+            printf(" \n\tGame Over! The number was %u\n ", rightNumber);
         }
     }
     
