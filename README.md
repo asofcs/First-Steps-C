@@ -17,6 +17,7 @@ Break up the flow of execution by employing decision making, looping, and branch
 Require that the programmmer specify one or more conditions to be evaluated or tested by the program:
 - If a condition is true then a statement or statements are executed.
 - If a condition is false the other statements are executed.
+Alternative: condition ? expression1 : expression2
 
 ### Looping
 - If is required to execute a block of code several number of times.
