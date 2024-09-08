@@ -23,3 +23,6 @@ IDE: CodeLite
     - int x[3][4] = {{0,1,2,3}, {4,5,6,7}, {8,9,10,11}} *(all elements initialized)*
     - int x[3][4] = {{0}, {4}, {8}} *(the first element initialized / per row)*
     - int x[3][4] *(none of the elements initialized)*
+
+### Variable Length Arrays (VLAs)
+- Example: int arr[size(int)+1]
