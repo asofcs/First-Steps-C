@@ -15,3 +15,5 @@ IDE: CodeLite
 ## [Basics_4: Control Flow](https://github.com/asofcs/First_Steps_C/tree/b4-control-flow)
 
 ## [Basics_5: Arrays](https://github.com/asofcs/First_Steps_C/tree/b5-arrays)
+
+## [Basics_5: Functions](https://github.com/asofcs/First_Steps_C/tree/b6-functions)
