@@ -12,7 +12,7 @@ int gcd(int a, int b); // greatest common divisor. -1 if argument is non-positiv
 float squareRoot(float a); // square root of a number. -1 if argument is negative.
 
 
-int main(int argc, char **argv)
+int main(void)
 {
     printf(" \n Absolute value of 6: %.3f\n ", absoluteValue(6));
     printf(" \n Absolute value of -6: %.3f\n ", absoluteValue(-6));
