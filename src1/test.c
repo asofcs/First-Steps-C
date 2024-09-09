@@ -5,7 +5,6 @@
 
 
 #include <stdio.h>
-#include <stdbool.h>
 
 #define MAXPRIME 100
 #define MINPRIME 1
