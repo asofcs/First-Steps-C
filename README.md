@@ -74,5 +74,37 @@ The area of the rectangle is: 15.00
 
 
 ```
+### Arguments Vs Parameters
+- Arguments: when a function is called, is the data it passes into the function parameters.
+- Parameters: a variables in a function declaration and function definition/implementation
+
+### Local and Global Variables
+- Local variables: variables defined inside a function are known as automatic local variables.
+- Global variables: variables that are declared outside of any function or block of code and can be accessed from any part of the program.
+  -[Example](https://www.geeksforgeeks.org/global-variables-in-c/)
+  ```c
+    // C program to update global variables
+    #include <stdio.h>
+     
+    int a, b; // global variables
+     
+    void add()
+    { // we are adding values of global a and b i.e. 10+15
+        printf("%d", a + b);
+    }
+     
+    int main()
+    {
+        // we are now updating the values of global variables
+        // as you can see we dont need to redeclare a and b
+        // again
+        a = 10;
+        b = 15;
+        add();
+        return 0;
+    }
+    Output
+    25
+  ```   
 
 
