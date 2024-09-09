@@ -41,6 +41,7 @@ Sum is: 40
 
 ### Function Prototypes
 - Function prototype works like a function declaration where it is necessary where the function reference or call is present before the function definition.
+- When a standard header file (x.h) is included in a program, the header files adds the function prototypes for that library.
 - [Example](https://www.geeksforgeeks.org/function-prototype-in-c/)
 ```c
 / C program to illustrate the function prototye
