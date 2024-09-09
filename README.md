@@ -38,3 +38,40 @@ int main()
 Output
 Sum is: 40
 ```
+
+### Function Prototypes
+- Function prototype works like a function declaration where it is necessary where the function reference or call is present before the function definition.
+- [Example](https://www.geeksforgeeks.org/function-prototype-in-c/)
+```c
+/ C program to illustrate the function prototye
+#include <stdio.h>
+ 
+// Function prototype
+float calculateRectangleArea(float length, float width);
+ 
+int main()
+{
+    float length = 5.0;
+    float width = 3.0;
+ 
+    // Function call
+    float area = calculateRectangleArea(length, width);
+ 
+    printf("The area of the rectangle is: %.2f\n", area);
+ 
+    return 0;
+}
+ 
+// Function definition
+float calculateRectangleArea(float length, float width)
+{
+    return length * width;
+}
+
+Output
+The area of the rectangle is: 15.00
+
+
+```
+
+
