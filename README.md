@@ -7,7 +7,6 @@ IDE: CodeLite
 - [C Primer Plus](https://www.oreilly.com/library/view/c-primer-plus/9780133432398/)
 ## See code: [src1/test.c](https://github.com/asofcs/First_Steps_C/blob/b4-control-flow/src1/test.c) and [src2/test.c](https://github.com/asofcs/First_Steps_C/blob/b4-control-flow/src2/test.c)
 ## Brief Notes
-## Brief Notes
 ### Control Flow Statements
 Break up the flow of execution by employing decision making, looping, and branching, enabling the program to conditionally execute particular blocks of code:
 - Decision-making: if, if-else, switch, goto
