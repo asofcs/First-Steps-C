@@ -5,7 +5,7 @@ IDE: CodeLite
 ## Sources
 - [C Programming For Beginners - Master the C Language](https://www.udemy.com/course/c-programming-for-beginners-/)
 - [C Primer Plus](https://www.oreilly.com/library/view/c-primer-plus/9780133432398/)
-
+## See code: [src1/test.c](https://github.com/asofcs/First_Steps_C/blob/b6-functions/src1/test.c) and [src2/test.c](https://github.com/asofcs/First_Steps_C/blob/b6-functions/src2/test.c)
 ## Brief Notes
 ### Function
 - A self-contained unit of program code designed to accomplish a particular task.
