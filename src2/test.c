@@ -1,3 +1,9 @@
+/*
+ * Written by @asofcs
+ * Copyright 2024
+ */
+
+
 #include <stdio.h>
 #include <stdlib.h>
 
