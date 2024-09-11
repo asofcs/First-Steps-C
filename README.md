@@ -17,3 +17,5 @@ IDE: CodeLite
 ## [Basics_5: Arrays](https://github.com/asofcs/First_Steps_C/tree/b5-arrays)
 
 ## [Basics_6: Functions](https://github.com/asofcs/First_Steps_C/tree/b6-functions)
+
+## [Basics_6: Character Strings](https://github.com/asofcs/First_Steps_C/tree/b7-character-strings)
