@@ -21,3 +21,5 @@ IDE: CodeLite
 ## [Basics_7: Character Strings](https://github.com/asofcs/First_Steps_C/tree/b7-character-strings)
 
 ## [Basics_8: Pointers](https://github.com/asofcs/First_Steps_C/tree/b8-pointers)
+
+## [Basics_8: Structures](https://github.com/asofcs/First_Steps_C/tree/b9-structures)
