@@ -22,4 +22,7 @@ IDE: CodeLite
 
 ## [Basics_8: Pointers](https://github.com/asofcs/First_Steps_C/tree/b8-pointers)
 
-## [Basics_8: Structures](https://github.com/asofcs/First_Steps_C/tree/b9-structures)
+## [Basics_9: Structures](https://github.com/asofcs/First_Steps_C/tree/b9-structures)
+
+## [Basics_10: Files](https://github.com/asofcs/First_Steps_C/tree/b10-files)
+
