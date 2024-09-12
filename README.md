@@ -19,3 +19,5 @@ IDE: CodeLite
 ## [Basics_6: Functions](https://github.com/asofcs/First_Steps_C/tree/b6-functions)
 
 ## [Basics_7: Character Strings](https://github.com/asofcs/First_Steps_C/tree/b7-character-strings)
+
+## [Basics_8: Pointers](https://github.com/asofcs/First_Steps_C/tree/b8-pointers)
