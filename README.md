@@ -6,7 +6,7 @@ IDE: CodeLite
 ## Sources
 - [C Programming For Beginners - Master the C Language](https://www.udemy.com/course/c-programming-for-beginners-/)
 - [C Primer Plus](https://www.oreilly.com/library/view/c-primer-plus/9780133432398/)
-## See code: [src1/test.c](https://github.com/asofcs/First-Steps-C/blob/b1-introduction/src1/test.c)
+## See code: [src1/test.c](https://github.com/asofcs/First-Steps-C/blob/b8-pointers/src1/test.c)
 ## Brief Notes
 ### Indirection
 - The ability to reference something using name, reference, or container, instead of the value itself.
