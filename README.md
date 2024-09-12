@@ -37,6 +37,8 @@ IDE: CodeLite
   ### Initialization
   - If it doesn't point to anything: int *ptr = NULL;
   - If it points to a variable: int *ptr = &i;
+  ### Arrays
+  ### Functions
   ### Arithmetic
   ### Dynamic Memory Allocation
 
