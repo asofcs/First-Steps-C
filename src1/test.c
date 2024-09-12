@@ -17,7 +17,7 @@ int main(void)
     {
         printf("Variable's value: %d\n", number1);
         printf("Variable's address: %p\n",  &number1);
-        printf("Address pointed by the pointer: %p\n", ptr);
+        printf("Address pointed by the pointer/Pointer's value: %p\n", ptr);
         printf("Value pointed by the pointer: %d\n", *ptr);
         printf("Pointer's address: %p\n", &ptr);        
     }
