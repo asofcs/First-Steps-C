@@ -1,4 +1,4 @@
-# [First_Steps_C](https://github.com/asofcs/First_Steps_C/tree/main)
+# [First-Steps-C](https://github.com/asofcs/First-Steps-C/tree/main)
 
 
 IDE: CodeLite
