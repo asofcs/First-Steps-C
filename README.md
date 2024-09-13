@@ -128,7 +128,7 @@ IDE: CodeLite
        return z;
     }
     ```
-    - const int *x : The function will treat the argument that is passed for this parameter as a constant (only the address 
+  - const int *x : The function will treat the argument that is passed for this parameter as a constant (only the address 
     can be changed).
 
   ### Arithmetic
