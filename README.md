@@ -6,7 +6,7 @@ IDE: CodeLite
 ## Sources
 - [C Programming For Beginners - Master the C Language](https://www.udemy.com/course/c-programming-for-beginners-/)
 - [C Primer Plus](https://www.oreilly.com/library/view/c-primer-plus/9780133432398/)
-## See code: [src1/test.c](https://github.com/asofcs/First-Steps-C/blob/b8-pointers/src1/test.c)
+## See code: [src1/test.c](https://github.com/asofcs/First-Steps-C/blob/b8-pointers/src1/test.c), [src2/test.c](https://github.com/asofcs/First-Steps-C/blob/b8-pointers/src2/test.c), [src3/test.c](https://github.com/asofcs/First-Steps-C/blob/b8-pointers/src3/test.c), and [src4/test.c](https://github.com/asofcs/First-Steps-C/blob/b8-pointers/src4/test.c) 
 
 ## Brief Notes
 
