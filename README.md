@@ -132,9 +132,72 @@ IDE: CodeLite
     can be changed).
 
   ### Arithmetic
-- fsf
-- fdf
-- fssf
+- ptr++ or *(ptr+1) or ptr = ptr + 1; : Increment the address to be pointed by one. If it points to an array, it access to arr[x+1], being x the previous position.
+   - [Example1](https://www.geeksforgeeks.org/pointer-arithmetics-in-c-with-examples/)
+   ```c
+   // C program to illustrate the array
+   // traversal using pointers
+   #include <stdio.h>
+    
+   // Driver Code
+   int main()
+   {
+    
+       int N = 5;
+    
+       // An array
+       int arr[] = { 1, 2, 3, 4, 5 };
+    
+       // Declare pointer variable
+       int* ptr;
+    
+       // Point the pointer to first
+       // element in array arr[]
+       ptr = arr;
+    
+       // Traverse array using ptr
+       for (int i = 0; i < N; i++) {
+    
+           // Print element at which
+           // ptr points
+           printf("%d ", ptr[0]);
+           ptr++;
+       }
+   }
+   Output
+   1 2 3 4 5 
+   ```
+   - [Example2](https://www.geeksforgeeks.org/strings-in-c/)
+   ```c
+   // C program to print string using Pointers
+   #include <stdio.h>
+    
+   int main()
+   {
+    
+       char str[20] = "GeeksforGeeks";
+    
+       // Pointer variable which stores
+       // the starting address of
+       // the character array str
+       char* ptr = str;
+    
+       // While loop will run till 
+       // the character value is not
+       // equal to null character
+       while (*ptr != '\0') {
+           printf("%c", *ptr);
+          
+           // moving pointer to the next character.
+           ptr++;
+       }
+    
+       return 0;
+   }
+   Output
+   GeeksforGeeks
+   ```
+- ++*ptr or *ptr = *ptr+1;: Increment the value to be pointed by i.
 
   ### Dynamic Memory Allocation
 - fsf
