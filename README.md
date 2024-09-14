@@ -200,7 +200,82 @@ IDE: CodeLite
 - ++*ptr or *ptr = *ptr+1;: Increment the value to be pointed by i.
 
   ### Dynamic Memory Allocation
-- fsf
-- fdf
-- fssf
+- This approach enables to allocate memory as the program is executing, and depends on the concept of a pointer.
+- Dynamic memmory allocation reserves space in the Heap.
+- Main functions:
+  - malloc() :  dynamically allocate a single large block of memory with the specified size. It returns a pointer of type 
+  void which can be cast into a pointer of any form. It doesn’t initialize memory at execution time so that it has 
+  initialized each block with the default garbage value initially.[Example:](https://www.geeksforgeeks.org/dynamic-memory-allocation-in-c-using-malloc-calloc-free-and-realloc/)
+  ```c
+  ptr = (int*) malloc(100 * sizeof(int));
+  ```
+  - calloc(): dynamically allocate the specified number of blocks of memory of the specified type. it is very much similar    to malloc() but has two different points and these are: It initializes each block with a default value ‘0’, and it has 
+  two parameters or arguments as compare to malloc(). [Example:](https://www.geeksforgeeks.org/dynamic-memory-allocation-in-c-using-malloc-calloc-free-and-realloc/)  
+  ```c
+  ptr = (int*)calloc(100, sizeof(int));
+  ```
+  - realloc(): dynamically change the memory allocation of a previously allocated memory. [Example:](https://www.geeksforgeeks.org/dynamic-memory-allocation-in-c-using-malloc-calloc-free-and-realloc/)  
+  ```c
+  ptr = (int*)realloc(ptr, 200 * sizeof(int));
+  ```
+  - free():  used to dynamically de-allocate the memory. [Example:](https://www.geeksforgeeks.org/dynamic-memory-allocation-in-c-using-malloc-calloc-free-and-realloc/)
+  ```c
+  #include <stdio.h>
+  #include <stdlib.h>
+  
+  int main()
+  {
+  
+      // This pointer will hold the
+      // base address of the block created
+      int *ptr, *ptr1;
+      int n, i;
+  
+      // Get the number of elements for the array
+      n = 5;
+      printf("Enter number of elements: %d\n", n);
+  
+      // Dynamically allocate memory using malloc()
+      ptr = (int*)malloc(n * sizeof(int));
+  
+      // Dynamically allocate memory using calloc()
+      ptr1 = (int*)calloc(n, sizeof(int));
+  
+      // Check if the memory has been successfully
+      // allocated by malloc or not
+      if (ptr == NULL || ptr1 == NULL) {
+          printf("Memory not allocated.\n");
+          exit(0);
+      }
+      else {
+  
+          // Memory has been successfully allocated
+          printf("Memory successfully allocated using malloc.\n");
+  
+          // Free the memory
+          free(ptr);
+          ptr = NULL;
+          printf("Malloc Memory successfully freed.\n");
+  
+          // Memory has been successfully allocated
+          printf("\nMemory successfully allocated using calloc.\n");
+  
+          // Free the memory
+          free(ptr1);
+          ptr1 = NULL;
+          printf("Calloc Memory successfully freed.\n");
+      }
+  
+      return 0;
+  }
+  
+  Output
+  Enter number of elements: 5
+  Memory successfully allocated using malloc.
+  Malloc Memory successfully freed.
+  
+  Memory successfully allocated using calloc.
+  Calloc Memory successfully freed.
+  ```
+    
 
