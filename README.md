@@ -180,7 +180,7 @@ struct parent
 
 ```
 
-- Example
+- [Example](https://www.geeksforgeeks.org/structures-c/)
 ```c
 // C Program to illustrate structure nesting along with
 // forward declaration
@@ -213,4 +213,38 @@ int main()
 
 ```
 - It is possible to set up an array of nested structures.
+
+## Pointers
+- In some older versions of C, a structure can't be passed as an argument to a function, but a pointer to structure can. 
+- [Example](https://www.geeksforgeeks.org/structures-c/)
+```c
+// C program to illustrate the structure pointer
+#include  <stdio.h>
+
+// structure declaration
+typedef struct{
+    int  x,  y;
+} point;
+
+int  main()
+{
+    point  str  =  {  1,  2  };
+
+    // p2 is a pointer to structure str
+    point  *ptr  =  &str;
+
+    // Accessing structure members using structure pointer
+    printf("%d %d",  ptr->x,  ptr->y); // or (*ptr).x, (*ptr).y 
+
+    return  0;
+}
+
+    
+Output
+
+1 2
+
+```
+- A pointer also can be a member of a structure.
+
 
