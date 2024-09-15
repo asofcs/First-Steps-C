@@ -90,5 +90,127 @@ typedef struct
 	var1.a = 20
 	var2.x = 314
   ```
+## Arrays
+- Declaration:
+```c
+struct type array[MAXSIZE];
+```
+- Initialization: similar to initialization of multidimensional arrays.
+- [Example](https://www.geeksforgeeks.org/c-array-of-structure/)
+```c
+// C program to demonstrate the array of structures 
+#include <stdio.h> 
+  
+// structure template 
+struct Employee { 
+    char Name[20]; 
+    int employeeID; 
+    int WeekAttendence[7]; 
+}; 
+  
+// driver code 
+int main() 
+{ 
+    // defining array of structure of type Employee 
+    struct Employee emp[5]; 
+  
+    // adding data 
+    for (int i = 0; i < 5; i++) { 
+        emp[i].employeeID = i; 
+        strcpy(emp[i].Name, "Amit"); 
+        int week; 
+        for (week = 0; week < 7; week++) { 
+            int attendence; 
+            emp[i].WeekAttendence[week] = week; 
+        } 
+    } 
+    printf("\n"); 
+  
+    // printing data 
+    for (int i = 0; i < 5; i++) { 
+        printf("Emplyee ID: %d - Employee Name: %s\n", 
+               emp[i].employeeID, emp[i].Name); 
+        printf("Attendence\n"); 
+        int week; 
+        for (week = 0; week < 7; week++) { 
+            printf("%d ", emp[i].WeekAttendence[week]); 
+        } 
+        printf("\n"); 
+    } 
+  
+    return 0; 
+}
 
+Output
+
+Emplyee ID: 0 - Employee Name: Amit  
+Attendence  
+0 1 2 3 4 5 6   
+Emplyee ID: 1 - Employee Name: Amit  
+Attendence  
+0 1 2 3 4 5 6   
+Emplyee ID: 2 - Employee Name: Amit  
+Attendence  
+0 1 2 3 4 5 6   
+Emplyee ID: 3 - Employee Name: Amit  
+Attendence  
+0 1 2 3 4 5 6   
+Emplyee ID: 4 - Employee Name: Amit  
+Attendence  
+0 1 2 3 4 5 6
+```
+- It is also possible to define structures that contain arrays as members.
+
+## Nested Structures
+- Declaration
+```c
+struct member_str 
+{
+    int member_str1;
+    char member_str2;
+    ...
+}
+
+struct parent 
+{
+    int member1;
+    struct member_str member2;
+    ...
+}
+
+```
+
+- Example
+```c
+// C Program to illustrate structure nesting along with
+// forward declaration
+#include <stdio.h>
+
+// child structure declaration
+struct child {
+    int x;
+    char c;
+};
+
+// parent structure declaration
+struct parent {
+    int a;
+    struct child b;
+};
+
+// driver code
+int main()
+{
+    struct parent var1 = { 25, 195, 'A' };
+
+    // accessing and printing nested members
+    printf("var1.a = %d\n", var1.a);
+    printf("var1.b.x = %d\n", var1.b.x);
+    printf("var1.b.c = %c", var1.b.c);
+
+    return 0;
+}
+
+```
+- It is possible to set up an array of nested structures.
 
