@@ -23,7 +23,7 @@ typedef struct  {
 } employee;
 
 	
-int  main()
+int  main(void)
 {
     /*declaration, and initialization of the person1*/
     employee person1 = {"asofcs", 2024, 1000};
