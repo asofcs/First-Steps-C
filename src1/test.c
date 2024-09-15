@@ -26,7 +26,7 @@ typedef struct  {
 int  main()
 {
     /*declaration, and initialization of the person1*/
-    employee person1 = {"Ana Silva", 2024, 1000};
+    employee person1 = {"asofcs", 2024, 1000};
     employee person2;
       
     /*initialization of the person2*/
