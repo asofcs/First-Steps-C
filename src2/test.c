@@ -54,7 +54,7 @@ void readItem(item *elem)
         }
         else
         {
-            printf(" \nPlease the name of the item (MAXSIZE: %d):\n", MAXSIZE-1);
+            printf(" \nPlease enter the name of the item (MAXSIZE: %d):\n", MAXSIZE-1);
             fgets(elem->itemName, MAXSIZE, stdin);
             elem->itemName[strcspn(elem->itemName, "\n")] = 0;
         }
@@ -62,13 +62,13 @@ void readItem(item *elem)
     
     if (elem->quantity == ERRORINT)
     {
-        printf(" \nPlease the quantity of the item:\n");
+        printf(" \nPlease enter the quantity of the item:\n");
         scanf("%d", &elem->quantity);
     }
     
     if (elem->price == ERRORINT)
     {
-        printf(" \nPlease the price of the item:\n");
+        printf(" \nPlease enter the price of the item:\n");
         scanf("%f", &elem->price);
     }
     
