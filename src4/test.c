@@ -11,7 +11,7 @@
 void getstr(char *strN, int MAXSIZE); // get the input string
 
 
-int main(int argc, char **argv)
+int main(void)
 {
 	
     unsigned int maxSize = 0; // input1: maximum size of string 
