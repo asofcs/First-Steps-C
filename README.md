@@ -247,4 +247,114 @@ Output
 ```
 - A pointer also can be a member of a structure.
 
+## Functions
+- [Passing by value method](https://www.geeksforgeeks.org/how-to-pass-or-return-a-structure-to-or-from-a-function-in-c/)
+```c
+// C program to pass structure as an argument to the
+// functions using Call By Value Method
+#include <stdio.h>
+ 
+struct car {
+    char name[30];
+    int price;
+};
+ 
+void print_car_info(struct car c)
+{
+    printf("Name : %s", c.name);
+    printf("\nPrice : %d\n", c.price);
+}
+ 
+int main()
+{
+    struct car c = { "Tata", 1021 };
+    print_car_info(c);
+    return 0;
+}
+
+Output
+Name : Tata
+Price : 1021
+
+```
+- [Passing by reference method](https://www.geeksforgeeks.org/how-to-pass-or-return-a-structure-to-or-from-a-function-in-c/)
+```c
+// C program to pass structure as an argument to the
+// functions using Call By Reference Method
+ 
+#include <stdio.h>
+ 
+struct student {
+    char name[50];
+    int roll;
+    float marks;
+};
+ 
+void display(struct student* student_obj)
+{
+    printf("Name: %s\n", student_obj->name);
+    printf("Roll: %d\n", student_obj->roll);
+    printf("Marks: %f\n", student_obj->marks);
+}
+int main()
+{
+    struct student st1 = { "Aman", 19, 8.5 };
+ 
+    display(&st1);
+ 
+    return 0;
+}
+Output
+Name: Aman
+Roll: 19
+Marks: 8.500000
+```
+- [Return a structure From functions](https://www.geeksforgeeks.org/how-to-pass-or-return-a-structure-to-or-from-a-function-in-c/)
+```c
+// C program to return a structure from a function
+#include <stdio.h>
+ 
+struct student {
+    char name[20];
+    int age;
+    float marks;
+};
+ 
+// function to return a structure
+struct student get_student_data()
+{
+    struct student s;
+ 
+    printf("Enter name: ");
+    scanf("%s", s.name);
+    printf("Enter age: ");
+    scanf("%d", &s.age);
+    printf("Enter marks: ");
+    scanf("%f", &s.marks);
+ 
+    return s;
+}
+ 
+int main()
+{
+    // structure variable s1 which has been assigned the
+    // returned value of get_student_data
+    struct student s1 = get_student_data();
+    // displaying the information
+    printf("Name: %s\n", s1.name);
+    printf("Age: %d\n", s1.age);
+    printf("Marks: %.1f\n", s1.marks);
+ 
+    return 0;
+}
+Output:
+
+Enter name: Krishna
+Enter age: 21
+Enter marks: 99
+Name: Krishna
+Age: 21
+Marks: 99.0
+
+```
 
