@@ -44,7 +44,7 @@ int main(int argc, char **argv)
     
     while (EOF != (c = fgetc(fp)))
     {
-        if((islower(c) != 0) && (isalpha(c) != 0))
+        if(islower(c) != 0)
         {
             c = c - 32;
         }
