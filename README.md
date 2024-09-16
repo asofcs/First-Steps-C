@@ -31,10 +31,11 @@ IDE: CodeLite
   - fprintf(): used to write formatted data to a stream.
   - fwrite(): writes the to the file stream in the form of binary data block.
   - fread(): reads data from the given stream into the array pointed to, by ptr. It is commonly used for reading binary files but can be used for text files as well.
-  - fseek(): sets the file position of the stream to the given offset.:
+  - fseek(): sets the file position of the stream to the given offset:
     - **SEEK_SET**: Beginning of the file.
     - **SEEK_CUR**: Current position of the file pointer.
-    - **SEEK_END**: End of the file. 
+    - **SEEK_END**: End of the file.
+  - ftell(): returns the current file position of the given stream.
 
 
 
