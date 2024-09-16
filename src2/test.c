@@ -147,7 +147,7 @@ void bubblesort(int nStr, char strNN[MAXSTR][MAXSIZE])
     
     printf("\n\t\tStrings after sorting:\n");
 
-    for (int i = 0; i < nStr; i++)
+    for (int i = 0; i < nStr+1; i++)
     {
         printf("%s\n", strNN[i]);
 
