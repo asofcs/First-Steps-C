@@ -358,3 +358,5 @@ Marks: 99.0
 
 ```
 
+## Vectors
+Basically dynamic arrays in which storage is handled automatically allowing it to be expanded and contracted as needed.
