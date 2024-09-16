@@ -36,6 +36,7 @@ IDE: CodeLite
     - **SEEK_CUR**: Current position of the file pointer.
     - **SEEK_END**: End of the file.
   - ftell(): returns the current file position of the given stream.
+  - rename(): causes the filename referred to by old_filename to be changed to new_filename. *The file must be closed.*
 
 
 
