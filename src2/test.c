@@ -131,7 +131,7 @@ void bubblesort(int nStr, char strNN[MAXSTR][MAXSIZE])
 {
     char temp[MAXSIZE/2];
 
-    for(int i = 0; i < nStr; i++)
+    for(int i = 1; i < nStr; i++)
     {
         if(strcmp(strNN[i], strNN[i-1]) < 0)
         {
