@@ -16,7 +16,7 @@
 student *student_new()
 {
     /*initialization*/
-    student *stdnew = NULL;
+    student *stdnew = ERRORPTR;
     
     /*memory allocation*/
     stdnew = (student*)malloc(sizeof(student));
@@ -146,7 +146,7 @@ int student_remove(student *stdnew, const char *name)
 int student_insert(student *stdnew, const char *name, int ects, float grade, int pos)
 {
     
-    if((stdnew == NULL) || (pos < ERRORINT) || (pos > stdnew->size))
+    if((stdnew == ERRORPTR) || (pos < ERRORINT) || (pos > stdnew->size))
     {
         return ERRORINT;
     }
@@ -165,7 +165,7 @@ int student_insert(student *stdnew, const char *name, int ects, float grade, int
         
         stdnew->units = (unit*)realloc(stdnew->units, stdnew->capacity * sizeof(unit));
         
-        if (stdnew->units == NULL)
+        if (stdnew->units == ERRORPTR)
         {
             return ERRORINT;
         }
@@ -225,7 +225,7 @@ int student_order(student *stdnew)
     
     unit temp;
     
-    if(stdnew == NULL)
+    if(stdnew == ERRORPTR)
     {
         return ERRORINT;
     }
