@@ -131,14 +131,18 @@ void bubblesort(int nStr, char strNN[MAXSTR][MAXSIZE])
 {
     char temp[MAXSIZE/2];
 
-    for(int i = 1; i < nStr; i++)
+    for(int i = 1; i < nStr+1; i++)
     {
-        if(strcmp(strNN[i], strNN[i-1]) < 0)
+        for(int j = 0; j< = nStr-i; j++)
         {
-            strncpy(temp, strNN[i], MAXSIZE/2);
-            strncpy(strNN[i], strNN[i-1], MAXSIZE/2);
-            strncpy(strNN[i-1], temp, MAXSIZE/2);
+            if(strcmp(strNN[j], strNN[j+1]) > 0)
+            {
+                strncpy(temp, strNN[j], MAXSIZE/2);
+                strncpy(strNN[j], strNN[j+1], MAXSIZE/2);
+                strncpy(strNN[j+1], temp, MAXSIZE/2);
+            }
         }
+        
     }
     
     printf("\n\t\tStrings after sorting:\n");
