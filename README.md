@@ -10,7 +10,7 @@ IDE: CodeLite
 ## See code: [src/test.c](https://github.com/asofcs/First-Steps-C/blob/b11-recursion/src/test.c) 
 
 ## Recursion
-- Recursion is the process of a function calling itself repeatedly till the given condition is satisfied. A function that calls itself directly or indirectly is called a recursive function and such kind of function calls are called recursive calls.
+- Recursion is the process of a function calling itself repeatedly until the given condition is satisfied. A function that calls itself directly or indirectly is called a recursive function and such kind of function calls are called recursive calls.
 
 ```c
 type function_name (args) {
