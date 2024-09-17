@@ -5,6 +5,7 @@ IDE: CodeLite
 ## Sources
 - [C Programming For Beginners - Master the C Language](https://www.udemy.com/course/c-programming-for-beginners-/)
 - [C Primer Plus](https://www.oreilly.com/library/view/c-primer-plus/9780133432398/)
+## See code: [src1/test.c](https://github.com/asofcs/First-Steps-C/blob/b10-files/src1/test.c) [src2/test.c](https://github.com/asofcs/First-Steps-C/blob/b10-files/src2/test.c), and [src3/test.c](https://github.com/asofcs/First-Steps-C/blob/b10-files/src3/test.c) 
 ## Files
 - Text files: It contains data in the form of ASCII characters and is generally used to store a stream of characters: *plain text files, html, xml, etc.*
 - Binary files: It requires a knowledge of the structure so that it can be read correctly: *images, videos, songs, etc.*
