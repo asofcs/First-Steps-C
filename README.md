@@ -6,6 +6,8 @@ IDE: CodeLite
 - [C Programming For Beginners - Master the C Language](https://www.udemy.com/course/c-programming-for-beginners-/)
 - [C Primer Plus](https://www.oreilly.com/library/view/c-primer-plus/9780133432398/)
 
+## See code: [src1/test.c](https://github.com/asofcs/First-Steps-C/blob/b11-recursion/src1/test.c) 
+
 ## Recursion
 - Recursion is the process of a function calling itself repeatedly till the given condition is satisfied. A function that calls itself directly or indirectly is called a recursive function and such kind of function calls are called recursive calls.
 
