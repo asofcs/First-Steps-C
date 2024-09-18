@@ -54,7 +54,7 @@ type function_name (args) {
 
 
   1- nSum(5) = 5 + nSum(4)
-  2- nSum(4) = 4 + nSum(3) -> nSum(5) = 5+4+nSum(13)
+  2- nSum(4) = 4 + nSum(3) -> nSum(5) = 5+4+nSum(3)
   3- nSum(3) = 3 + nSum(2) -> nSum(5) = 5+4+3+nSum(2)
   4- nSum(2) = 2 + nSum(1) -> nSum(5) = 5+4+3+2+nSum(1)
   5- nSum(1) = 1 + nSum(0) -> nSum(5) = 5+4+3+2+1+nSum(0)
