@@ -362,3 +362,11 @@ Marks: 99.0
 
 ## Vectors
 Basically dynamic arrays in which storage is handled automatically allowing it to be expanded and contracted as needed.
+
+## Graphs
+- A graph is represented by ordered pair G where G = (V,E):
+   - V: a finite set of points called vertices
+   - E: a finite set of points called edges. Each edge is a pair (a,b) where a,b ∈ V.
+
+![GeeksForGeeks](https://github.com/user-attachments/assets/c4302e4c-2d4a-45ef-a4c9-58c5ccbcae03)
+
