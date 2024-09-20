@@ -42,20 +42,17 @@ gridEdge *createEdge(int src, int dst);
 
 /*
  * Add an directed edge to the grid
- * 
  */
 void addDirectedEdge(grid *g, int src, int dst);
 
 /*
  * Add an undireted edge to the grid
- * 
  */
 void addUndirectedEdge(grid *g, int src, int dst);
 
 
 /*
- * Store a group/vector of units. Contains the total size, capacity, and average
- * 
+ * Print the grid
  */
 void printGrid(grid *g);
 
