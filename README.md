@@ -370,3 +370,5 @@ Basically dynamic arrays in which storage is handled automatically allowing it t
 
 ![GeeksForGeeks](https://github.com/user-attachments/assets/c4302e4c-2d4a-45ef-a4c9-58c5ccbcae03)
 
+- Undirected Graph: a graph in which edges have no directions. An edges (a,b) is identical to an edge (b,a).
+- Directed Graph: a graph in which edges have a direction. The edges of the graph are one way.
