@@ -5,6 +5,8 @@ IDE: CodeLite
 ## Sources
 - [C Programming For Beginners - Master the C Language](https://www.udemy.com/course/c-programming-for-beginners-/)
 - [C Primer Plus](https://www.oreilly.com/library/view/c-primer-plus/9780133432398/)
+- [Problem Solving in Data Structures and Algorithms using C](https://www.amazon.com/Problem-Solving-Structures-Algorithms-Using-dp-935620280X/dp/935620280X/ref=dp_ob_image_bk)
+
 ## See code: [src1/test.c](https://github.com/asofcs/First-Steps-C/blob/b9-structures/src1/test.c) [src2/test.c](https://github.com/asofcs/First-Steps-C/blob/b9-structures/src2/test.c), and [src3/test.c](https://github.com/asofcs/First-Steps-C/blob/b9-structures/src3/test.c) 
 ## Structures
 - Another tool for grouping elements together.
