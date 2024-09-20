@@ -5,6 +5,7 @@ IDE: CodeLite
 ## Sources
 - [C Programming For Beginners - Master the C Language](https://www.udemy.com/course/c-programming-for-beginners-/)
 - [C Primer Plus](https://www.oreilly.com/library/view/c-primer-plus/9780133432398/)
+- [Problem Solving in Data Structures and Algorithms using C](https://www.amazon.com/Problem-Solving-Structures-Algorithms-Using-dp-935620280X/dp/935620280X/ref=dp_ob_image_bk)
 
 ## [Basics_1: Introduction](https://github.com/asofcs/First-Steps-C/tree/b1-introduction)
 
