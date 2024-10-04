@@ -8,7 +8,7 @@ IDE: CodeLite
 ## See code: [test.c](https://github.com/asofcs/First-Steps-C/blob/b1-introduction/src/test.c)
 ## Brief Notes
 ### Compilers errors
-Sintax errors, semantic errors
+Syntax errors, semantic errors
 ### Compiler warning
 Uninitialized variables
 ### Linker errors
