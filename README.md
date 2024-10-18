@@ -132,7 +132,7 @@ IDE: CodeLite
     can be changed).
 
   ### Arithmetic
-- ptr++ or *(ptr+1) or ptr = ptr + 1; : Increment the address to be pointed by one. If it points to an array, it access to arr[x+1], being x the previous position.
+- ptr++ or ptr = ptr + 1; : Increment the address to be pointed by one. If it points to an array, it access to arr[x+1], being x the previous position.
    - [Example1](https://www.geeksforgeeks.org/pointer-arithmetics-in-c-with-examples/)
    ```c
    // C program to illustrate the array
